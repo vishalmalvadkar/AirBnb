@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="QASuite">
+  <test thread-count="5" name="Test">
+	<parameter name="testdata" value="velocity"/>
+    <classes>
+      <class name="org.TestHome"/>
+		<parameter name="browsers" value="chrome"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- QASuite -->
